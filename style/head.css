@@ -1,0 +1,72 @@
+head.css
+			#head{
+				height:30px;
+				background:#eee;
+			}
+			#head .h_box{
+				line-height:30px;
+			}
+			#head .h_box .h_con_l{
+				width:350px;
+				height:30px;
+			}
+			#head .h_box .h_con_l a:hover{
+				text-decoration:underline;
+			}
+			#head .h_box .h_con_l span{
+				font-size:16px;
+				font-weight:bold;
+			}
+			
+			#head .h_box .h_con_r{
+				width:630px;
+				height:30px;
+				text-align:right;
+			}
+			#head .h_box .h_con_r .fr_l{
+				width:230px;
+				height:30px;
+			}
+			#head .h_box .h_con_r .fr_l .con{
+				width:20px;
+				height:16px;
+				display:inline-block;
+				margin:-3px 5px 0px;
+				vertical-align:middle;
+				background:url("images/homepage_icons.png")no-repeat;
+			}
+			#head .h_box .h_con_r .fr_l .weibo{
+				background:url("images/weibo.png")no-repeat;
+			}
+			#head .h_box .h_con_r .fr_l .weixin{
+				background-position: -568px -83px;
+				position:relative;
+			}
+			#head .h_box .h_con_r .fr_l .h_ewm{
+				width:200px;
+				height:200px;
+				position:absolute;
+				top:23px;
+				left:-75px;
+				display:none;
+				z-index: 2;
+			}
+			#head .h_box .h_con_r .fr_l .weixin:hover .h_ewm{
+				display:block;
+			}
+			#head .h_box .h_con_r .fr_l .phone {
+				position:relative;
+				margin:0px 5px 0px 10px;
+			}
+
+			#head .h_box .h_con_r .fr_l .phone:hover .h_ewm{
+				display:block;
+			}
+			#head .h_box .h_con_r .fr_l .phone_img{
+				width:12px;
+				position:relative;
+				background-position: -589px -85px;
+			}
+			#head .h_box .h_con_r .fr_l .phone_img:hover .h_ewm{
+				display:block;
+			}
