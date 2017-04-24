@@ -1,0 +1,52 @@
+@charset 'utf-8';
+#infor{
+	height:390px;
+	background:#d74148;
+}
+#infor .i_wrap{
+	height:390px;
+}
+#infor .i_wrap ul{
+	padding:40px 0px 0px;
+}
+#infor .i_wrap ul li{
+	width:24%;
+	float:left;
+	margin:0px 0px 0px 10px;
+}
+#infor .i_wrap ul li:nth-child(1){
+	margin:0;
+}
+#infor .i_wrap ul li .spa_img{
+	display:block;
+	width:130px;
+	height:130px;
+	background-color:#b8252c;
+	margin:0 auto;
+	position:relative;
+	border-radius:50%;
+}
+#infor .i_wrap ul li .spa_img s{
+	width:34px;
+	height:34px;
+	display:block;
+	background:url("../images/sprites.png")no-repeat -345px -123px;
+	position:absolute;
+	top:48px;
+	left:65px;
+	margin-left:-17px;
+}
+#infor .i_wrap ul li .txt{
+	margin:22px 0px 26px;
+}
+#infor .i_wrap ul li .txt dt{
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+	padding:0px 0px 22px;
+}
+#infor .i_wrap ul li .txt dd{
+	font-size:13px;
+	color:#f49da1;
+	text-align:center;
+}

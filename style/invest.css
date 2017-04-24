@@ -1,0 +1,55 @@
+@charset 'utf-8';
+#invest .invest_con{
+	height:92px;
+	padding:38px 0px 0px;
+	background:#d74148;
+}
+#invest .invest_con .in_con_wrap{
+	height:60px;
+}
+#invest .invest_con .in_con_wrap dl{
+	display:inline-block;
+	overflow:hidden;
+	color:#fff;
+	float:left;
+	margin:0px 20px 0px 0px;
+}
+#invest .invest_con .in_con_wrap dl .in_dl_img{
+	display:inline-block;
+	width:200px;
+	height:35px;
+	background:url("../images/homepage_icons.png")no-repeat -548px -43px;
+	margin:5px 53px 0px 0px;
+}
+#invest .invest_con .in_con_wrap .money_com{
+	width:110px;
+}
+#invest .invest_con .in_con_wrap .money_com em{
+	
+	font-style:normal;
+}
+#invest .invest_con .in_con_wrap dl .in_dl_img em{
+	color:#fff;
+	display:block;
+	margin:37px 0px 0px;
+	font-size:14px;
+
+}
+#invest .invest_con .in_con_wrap dl .money{
+	font-size:38px;
+	font-family:"黑体";
+}
+#invest .invest_con .in_con_wrap .money_year{
+	width:150px;
+}
+#invest .invest_con .in_con_wrap .invest_btn{
+	display:inline-block;
+	width:240px;
+	height:38px;
+	background:url("../images/homepage_icons.png")no-repeat -549px 0px;
+	margin:13px 0px 0px;
+	font-size:14px;
+	text-align:center;
+	line-height:38px;
+	color:#fff;
+}		

@@ -1,0 +1,72 @@
+#guide{
+	background:#fff;
+	height:240px;
+}
+#guide .g_con{
+	padding:30px 0px 0px;
+}
+#guide .g_con .con_txt{
+	width:110px;
+	float:left;
+	margin:0px 10px 10px 0px;
+	padding:0px 27px 0px 0px;
+}
+#guide .g_con .con_txt dt{
+	font-weight:bold;
+	font-size:14px;
+	height:30px;
+	line-height:30px;
+}
+#guide .g_con .con_txt dd{
+	margin:10px 0px 15px;
+}
+#guide .g_con .con_txt a:hover{
+	text-decoration:underline;
+}
+#guide .g_con .con_ewm{
+	width:150px;
+}
+#guide .g_con .tel{
+	width:230px;
+	height:200px;
+	float:right;
+}
+#guide .g_con .tel .txt1{
+	font-weight:bold;
+	font-size:14px;
+	margin-bottom:5px;
+}
+#guide .g_con .tel .txt2{
+	font-size:38px;
+	color:#666;
+	font-family:"黑体";
+}
+#guide .g_con .tel .txt3{
+	margin-bottom:5px;
+}
+#guide .g_con .tel .txt3 em{
+	font-style:normal;
+	margin:0px 5px 0px 0px;
+}
+#guide .g_con .tel .txt4 .tel_btn{
+	width:80px;
+	height:30px;
+	line-height:30px;
+	display:block;
+	border:1px solid #ccc;
+	border-radius:15px;
+	padding:0px 0px 0px 50px;
+	position:relative;
+}
+#guide .g_con .tel .txt4 .tel_btn:hover{
+	text-decoration:underline;
+}
+#guide .g_con .tel .txt4 .tel_btn span{
+	display:inline-block;
+	width:18px;
+	height:22px;
+	background:url("images/homepage_icons.png")no-repeat -759px -55px;
+	position:absolute;
+	top:5px;
+	left:22px;
+}

@@ -1,0 +1,45 @@
+#ad{
+	height:200px;
+	background:#e0e0e0;
+	padding:34px 0px 0px;
+}
+#ad .ad_con .ad_title{
+	height:34px;
+	border-bottom:3px solid #eee;
+	padding-left:15px;
+	margin-bottom:20px;
+}
+#ad .ad_con .ad_title .t_txt{
+	display:inline-block;
+	height:31px;
+	width:94px;
+	font-size:14px;
+	color:#999;
+	text-align:center;
+	line-height:31px;
+}
+#ad .ad_con .ad_title .t_txt1{
+	font-weight:bold;
+	color:#000;
+	background:#e0e0e0;
+	border-left:3px solid #eee;
+	border-top:3px solid #eee;
+	border-right:3px solid #eee;
+	height:34px;
+}
+#ad .ad_con .ad_img li{
+	width:113px;
+	height:48px;
+	border:1px solid #9b9b9b;
+	background:url("images/partner_icon.png")no-repeat 0px -570px;
+	float:left;
+	margin:0px 0px 10px 10px;
+}
+#ad .ad_con .ad_img li:nth-child(1){
+	margin:0;
+}
+#ad .ad_con .ad_img li a{
+	display:block;
+	height:100%;
+	width:100%;
+}
