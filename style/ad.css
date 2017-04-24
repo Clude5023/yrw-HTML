@@ -1,3 +1,4 @@
+@charset 'utf-8';
 #ad{
 	height:200px;
 	background:#e0e0e0;
@@ -31,7 +32,7 @@
 	width:113px;
 	height:48px;
 	border:1px solid #9b9b9b;
-	background:url("images/partner_icon.png")no-repeat 0px -570px;
+	background:url("../images/partner_icon.png")no-repeat 0px -570px;
 	float:left;
 	margin:0px 0px 10px 10px;
 }
