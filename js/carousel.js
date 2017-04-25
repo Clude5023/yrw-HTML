@@ -39,11 +39,16 @@ class Carousel{
 		$(tar).addClass('banSelected')
 	}
 	changeImg(index){
-		this.options.images.forEach((d)=>{
+		let oSrc
+		let oImges = this.options.images
+		oImges.forEach((d)=>{
 			$(d.childNodes[0]).removeClass('banShow')
 		})
-		$(this.options.images[index].childNodes[0]).addClass('banShow')
-		this.options.images[index].childNodes[0].src = this.options.images[index].childNodes[0].getAttribute('data-src')
+		$(oImges[index].childNodes[0]).addClass('banShow')
+		if ( !oImges[index].childNodes[0].src || oImges[index].childNodes[0].src === ''){
+			oSrc = oImges[index].childNodes[0].getAttribute('data-src')
+			oImges[index].childNodes[0].src = oSrc
+		}
 	}
 	autoRun(){
 		this.timer = setInterval(()=>{
