@@ -6,6 +6,7 @@
 		<meta name="Keywords" content="" />
 		<meta name="Description" content="" />
 		<title>有融网-全透明的互联网理财优选平台</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
 		<link rel="stylesheet" type="text/css" href="style/common.css">
 		<link rel="stylesheet" type="text/css" href="style/head.css">
 		<link rel="stylesheet" type="text/css" href="style/search.css">
@@ -91,9 +92,16 @@
 	<!--header_bottom e-->
 	<!--banner s-->
 	<div id="banner">
-		<a href="javascript:void(0)" class="banner_bg"></a>
-		<ul class="ban_ul">
-			<li></li>
+		<div class="ban_img">
+			<a href="javascript:void(0)"><img class="banner_bg banShow" data-src="./images/banner1.png" src="./images/banner1.png"></img></a>
+			<a href="javascript:void(0)"><img class="banner_bg" data-src="./images/banner2.png"></img></a>
+			<a href="javascript:void(0)"><img class="banner_bg" data-src="./images/banner3.png"></img></a>
+			<a href="javascript:void(0)"><img class="banner_bg" data-src="./images/banner4.png"></img></a>
+			<a href="javascript:void(0)"><img class="banner_bg" data-src="./images/banner5.png"></img></a>
+			<a href="javascript:void(0)"><img class="banner_bg" data-src="./images/banner6.png"></img></a>
+		</div>
+		<ul class="ban_btn">
+			<li class='banSelected'></li>
 			<li></li>
 			<li></li>
 			<li></li>
@@ -670,5 +678,13 @@
 		</div>
 	</div>
 	<!--footer e-->
+	<script type="text/javascript" src="./js/carousel.js"></script>
+	<script type="text/javascript">
+		new Carousel({
+			images:document.querySelector('.ban_img').querySelectorAll('a'),
+			btns:document.querySelector('.ban_btn').querySelectorAll('li'),
+			time:'3000'
+		})
+	</script>
 </body>
 </html>

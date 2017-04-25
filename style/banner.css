@@ -12,20 +12,32 @@
 	height:380px;
 	position:relative;
 }
-#banner .banner_bg{
-	display:block;
-	background:url("../images/banner.png")no-repeat 50% 50%;
+#banner .ban_img{
+	height:380px;
+	width:100%;
+}
+#banner .ban_img .banner_bg{
+	position: absolute;
+	top:0;
+	left:0;
 	height:380px;
 	width:100%;
 	margin:-8px 0px 0px 0px;
+	opacity: 0;
+	transition: 1s;
 }
-#banner .ban_ul{
+#banner .ban_img .banShow{
+	opacity: 1;
+	transition: 1s;
+}
+
+#banner .ban_btn{
 	position:absolute;
-	bottom:10px;
+	bottom:30px;
 	left:50%;
 	margin-left:-151px;
 }
-#banner .ban_ul li{
+#banner .ban_btn li{
 	float:left;
 	width:38px;
 	height:6px;
@@ -34,9 +46,11 @@
 	border-radius:5px;
 	background:#666;
 }
-#banner .ban_ul li:nth-child(1){
-	background:rgba(0,0,0,0);
+
+#banner .ban_btn .banSelected{
+	background-color:rgba(0,0,0,0);
 }
+
 #banner_nav{
 	height:60px;
 	background-color:#fff;
